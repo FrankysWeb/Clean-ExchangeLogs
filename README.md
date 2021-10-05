@@ -5,6 +5,7 @@
 You have to edit the first lines of the script if you don't you the default paths:
 
 ```
+# Cleanup logs older than the set of days in numbers
 $Days = 14
 
 # Path of the logs that you like to cleanup
@@ -15,14 +16,18 @@ $ETLLoggingPath2 = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ce
 $UnifiedContentPath = "D:\Exchange Server\TransportRoles\data\Temp\UnifiedContent"
 ```
 
-Download and copy this scrip to an Excchange Server.
+Download and copy this script to an Excchange Server.
 Run this script:
 
 ```
 .\Clean-ExchangeLogs.ps1
 ```
 
-## Tested Windows Server Versions
+## Thanks!
+This script was first published on [Ali Tajran Website](https://www.alitajran.com/cleanup-logs-exchange-2013-2016-2019/),
+I modified Ali's script to cover Exchange Unfified Content Directory and add some stats to the output.
+
+## Tested Exchange / Windows Server Versions
 
  - Exchange Server 2016
  - Exchange Server 2019
@@ -32,4 +37,3 @@ Run this script:
 
 ## Website
  [FrankysWeb](https://www.frankysweb.de/)
- 
