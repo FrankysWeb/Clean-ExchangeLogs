@@ -23,7 +23,7 @@ Run this script:
 .\Clean-ExchangeLogs.ps1
 ```
 
-## Thanks!
+## Special Thanks!
 This script was first published on [Ali Tajran Website](https://www.alitajran.com/cleanup-logs-exchange-2013-2016-2019/),
 I modified Ali's script to cover Exchange Unfified Content Directory and add some stats to the output.
 

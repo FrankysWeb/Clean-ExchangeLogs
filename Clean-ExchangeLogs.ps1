@@ -8,15 +8,6 @@ $ETLLoggingPath = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Cer
 $ETLLoggingPath2 = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Diagnostics\Logs\"
 $UnifiedContentPath = "D:\Exchange Server\TransportRoles\data\Temp\UnifiedContent"
 
-#temp for testing
-
-$Days = 1
-$IISLogPath = "D:\IIS-Logs"
-$ExchangeLoggingPath = "D:\Exchange Server\Logging"
-$ETLLoggingPath = "D:\Exchange Server\Bin\Search\Ceres\Diagnostics\ETLTraces"
-$ETLLoggingPath2 = "D:\Exchange Server\Bin\Search\Ceres\Diagnostics\Logs"
-$UnifiedContentPath = "D:\Exchange Server\TransportRoles\data\Temp\UnifiedContent"
-
 # Test if evelated Shell
 Function Confirm-Administrator {
     $currentPrincipal = New-Object Security.Principal.WindowsPrincipal( [Security.Principal.WindowsIdentity]::GetCurrent() )
