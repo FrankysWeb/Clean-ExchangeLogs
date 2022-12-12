@@ -13,7 +13,7 @@ $IISLogPath = "C:\inetpub\logs\LogFiles\"
 $ExchangeLoggingPath = "C:\Program Files\Microsoft\Exchange Server\V15\Logging\"
 $ETLLoggingPath = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Diagnostics\ETLTraces\"
 $ETLLoggingPath2 = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Diagnostics\Logs\"
-$UnifiedContentPath = "D:\Exchange Server\TransportRoles\data\Temp\UnifiedContent"
+$UnifiedContentPath = "C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Temp\UnifiedContent"
 ```
 
 Download and copy this script to an Excchange Server.
