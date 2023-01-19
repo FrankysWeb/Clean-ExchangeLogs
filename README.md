@@ -1,5 +1,5 @@
 # Clean-ExchangeLogs
- Clean Exchange Server Logsfiles to free up disk space
+ Clean Exchange Server Logfiles to free up disk space
 
 ## Usage
 You have to edit the first lines of the script if you don't you the default paths:
