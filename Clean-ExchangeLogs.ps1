@@ -3,10 +3,10 @@ $Days = 14
 
 # Path of the logs that you like to cleanup
 $IISLogPath = "C:\inetpub\logs\LogFiles\"
-$ExchangeLoggingPath = "C:\Program Files\Microsoft\Exchange Server\V15\Logging\"
-$ETLLoggingPath = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Diagnostics\ETLTraces\"
-$ETLLoggingPath2 = "C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Diagnostics\Logs\"
-$UnifiedContentPath = "C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\data\Temp\UnifiedContent"
+$ExchangeLoggingPath = $exinstall + "Logging\"
+$ETLLoggingPath = $exinstall + "Bin\Search\Ceres\Diagnostics\ETLTraces\"
+$ETLLoggingPath2 = $exinstall + "Bin\Search\Ceres\Diagnostics\Logs\"
+$UnifiedContentPath = $exinstall + "TransportRoles\data\Temp\UnifiedContent"
 
 # Test if evelated Shell
 Function Confirm-Administrator {
