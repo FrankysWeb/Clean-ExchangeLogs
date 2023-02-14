@@ -94,7 +94,7 @@ $UnifiedContentSize = Get-UnifiedContentfileSize $UnifiedContentPath
 $TotalLogSize = $IISLogSize + $ExchangeLogSize + $ETL1LogSize + $ETL2LogSize + $UnifiedContentSize
 write-host "Total Log and Trace File Size is $TotalLogSize GB"
 
-#Ask if script should realy delete the logs
+#Ask if script should really delete the logs
 $Confirmation = Read-Host "Delete Exchange Server log and trace files? [y/n]"
 while($Confirmation -notmatch "[yYnN]") {
     if ($Confirmation -match "[nN]") {exit}
